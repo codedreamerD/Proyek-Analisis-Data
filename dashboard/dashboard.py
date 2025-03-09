@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 
 # Load Dataset
-data = pd.read_csv("D:/Proyek-Analisis-Data/dashboard/all_data.csv")  # Pastikan path benar
+data = pd.read_csv("dashboard/all_data.csv")  # Pastikan path benar
 
 # Konversi kolom tanggal ke format datetime
 data["dteday"] = pd.to_datetime(data["dteday"])
