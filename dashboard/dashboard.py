@@ -9,8 +9,8 @@ sns.set_theme(style="darkgrid")
 st.set_page_config(layout="wide")
 
 # Load dataset
-day_df = pd.read_csv("D:/Bike-Sharing-Dashboard/data/day.csv")
-hour_df = pd.read_csv("D:/Bike-Sharing-Dashboard/data/hour.csv")
+day_df = pd.read_csv("data/day.csv")
+hour_df = pd.read_csv("data/hour.csv")
 
 # Konversi tanggal ke format datetime
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
